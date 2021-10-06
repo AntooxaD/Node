@@ -1,0 +1,1 @@
+const task2 = require('../js/task-2');

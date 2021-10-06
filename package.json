@@ -2,12 +2,12 @@
   "name": "9-module-17-lesson",
   "version": "1.0.0",
   "description": "Node.JS",
-  "main": "js/index.js",
+  "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect js/index.js",
-    "start:dev": "node js/index.js"
+    "start": "nodemon --inspect src/index.js",
+    "start:dev": "node src/index.js"
   },
   "author": "Oleksii H",
   "license": "ISC",
