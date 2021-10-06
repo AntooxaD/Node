@@ -20,4 +20,4 @@ app.get('*', function (req, res) {
   res.status(404).send('Not found');
 });
 
-app.listen(3000);
+app.listen(3000, () => { console.log('started on port 3000')});
